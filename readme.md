@@ -28,16 +28,14 @@ pip install -r requirements.txt
 
 1. Создать короткую ссылку bitly:
 ```
-python main.py https://google.com/
-
-http://bit.ly/2A8OECy
+python main.py https://google.com    
+For https://google.com Bitlink id = bit.ly/3kz0YGv
 ```
 
 2. Вывести количество переходов по кликам по битли-ссылке:
 ```
-python3 main.py http://bit.ly/2A8OECy
-
-Количество переходов по ссылке битли: 12
+python main.py https://bit.ly/3kz0YGv 
+Count of clicks: 11
 ```
 
 ### Цель проекта
