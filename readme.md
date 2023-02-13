@@ -13,7 +13,10 @@
 2. Получить токен сервиса bitly.com
 https://support.bitly.com/hc/en-us/articles/230647907-How-do-I-generate-an-OAuth-access-token-for-the-Bitly-API-
 
-3. Файл .env.example переименовать в .env, в BYTLY_TOKEN подставить полученный токен
+3. Файл .env.example переименовать в .env, в `BYTLY_TOKEN` подставить полученный токен
+ ```
+   BYTLY_TOKEN = a3256343452643efd32453432765209as
+   ```
 
 4. Установить виртуальное окружение и установить зависимости
 ```
