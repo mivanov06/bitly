@@ -45,8 +45,10 @@ def is_bitlink(token, url):
 if __name__ == "__main__":
     load_dotenv()
     token = os.getenv('BYTLY_TOKEN')
-    parser = argparse.ArgumentParser()
-    parser.add_argument('url', type=str)
+    parser = argparse.ArgumentParser(description='Creates short bitly links from long URLs '
+                                                 'and gets statistics on clicks on bitly links')
+    parser.add_argument('url', type=str, help='URL or short bitly link. For example https://google.com or '
+                                              'https://bit.ly/3kz0YGv ')
     args = parser.parse_args()
     url = args.url
     try:
